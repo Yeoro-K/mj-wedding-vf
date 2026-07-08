@@ -1265,3 +1265,18 @@ a {
     max-width: none;
     margin: 0 auto 30px;
 }
+/* Story Section 제목 수정 */
+.story .section__inner {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.story .section__title {
+    width: 100%;
+    font-size: 2rem;          /* 필요하면 1.9rem 정도 */
+    letter-spacing: -0.06em;  /* 자간 줄이기 */
+    line-height: 1.25;
+    white-space: nowrap;      /* 한 줄 유지 */
+    text-align: center;
+}
