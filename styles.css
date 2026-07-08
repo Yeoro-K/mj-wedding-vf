@@ -1259,6 +1259,8 @@ a {
 }
 #storyTitle {
   font-size: clamp(1.05rem, 4.5vw, 1.3rem);
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
   white-space: nowrap;
+  width: 100%;
+  text-align: center;
 }
