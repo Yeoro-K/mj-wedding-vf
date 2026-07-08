@@ -391,6 +391,13 @@ a {
   margin-bottom: var(--spacing-lg);
   color: var(--color-text);
 }
+
+#greeting .section__title {
+  white-space: nowrap;
+  letter-spacing: 1px;
+  font-size: clamp(0.85rem, 4.2vw, 1.25rem);
+}
+
 /* ─── Ornament ─── */
 .ornament {
   font-size: 1.5rem;
@@ -1256,18 +1263,4 @@ a {
     opacity: 1 !important;
     transform: none !important;
   }
-}
-#storyTitle {
-    white-space: nowrap !important;
-    letter-spacing: -0.06em !important;
-    font-size: 1.1rem !important;
-    width: max-content;
-    max-width: none;
-    margin: 0 auto 30px;
-}
-/* Story Section 제목 수정 */
-.story .section__inner {
-    max-width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
 }
