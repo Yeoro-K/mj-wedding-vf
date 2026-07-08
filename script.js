@@ -144,6 +144,11 @@
       setTimeout(() => {
         curtain.classList.add('is-hidden');
       }, 1400);
+      const bgm = new Audio('bgm.mp3');
+      bgm.loop = true;
+      bgm.volume = 0.4;
+      bgm.play();
+      
     });
 
     document.body.classList.add('no-scroll');
