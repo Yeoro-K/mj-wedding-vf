@@ -117,7 +117,7 @@
     };
     setMeta('property', 'og:title', m.title);
     setMeta('property', 'og:description', m.description);
-    setMeta('property', 'og:image', 'images/og/1.jpg');
+    setMeta('property', 'og:image', 'images/og/26.jpg');
     setMeta('name', 'description', m.description);
   }
 
