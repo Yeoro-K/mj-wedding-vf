@@ -474,7 +474,7 @@
     const mapImg = $('#locationMapImg');
     mapImg.src = 'images/location/37.jpg';
     mapImg.style.cursor = 'zoom-in';
-    mapImg.addEventListener('click', () => openPhotoModal(['images/location/1.jpg'], 0));
+    mapImg.addEventListener('click', () => openPhotoModal(['images/location/37.jpg'], 0));
     $('#kakaoMapBtn').href = w.mapLinks.kakao || '#';
     $('#naverMapBtn').href = w.mapLinks.naver || '#';
 
