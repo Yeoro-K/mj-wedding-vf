@@ -894,11 +894,7 @@ a {
 }
 .location__parking {
   margin-top: var(--spacing-lg);
-  padding: var(--spacing-md);
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  text-align: left;
+  text-align: center;
 }
 
 .location__parking-title {
