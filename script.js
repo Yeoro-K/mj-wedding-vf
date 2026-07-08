@@ -154,7 +154,7 @@
      ═══════════════════════════════════════════ */
 
   function initHero() {
-    $('#heroPhoto').src = 'images/hero/1.jpg';
+    $('#heroPhoto').src = 'images/hero/17.jpg';
     $('#heroNames').textContent = `${CONFIG.groom.name}  ·  ${CONFIG.bride.name}`;
     $('#heroDate').textContent = formatDate(CONFIG.wedding.date, CONFIG.wedding.time);
     $('#heroVenue').textContent = CONFIG.wedding.venue;
@@ -472,7 +472,7 @@
     $('#locationAddress').textContent = w.address;
     $('#locationTel').textContent = w.tel ? `Tel. ${w.tel}` : '';
     const mapImg = $('#locationMapImg');
-    mapImg.src = 'images/location/1.jpg';
+    mapImg.src = 'images/location/37.jpg';
     mapImg.style.cursor = 'zoom-in';
     mapImg.addEventListener('click', () => openPhotoModal(['images/location/1.jpg'], 0));
     $('#kakaoMapBtn').href = w.mapLinks.kakao || '#';
